@@ -24,4 +24,4 @@ Exit code is 0 on success and 2 if the file does not exist or is not a PDF.
     pip install -r requirements-dev.txt
     python -m pytest -q
 
-Test PDFs are generated at test time with reportlab; no binary files are stored.
+Tests build their own PDFs with reportlab. The samples/ folder has small files for manual runs of the CLI.
