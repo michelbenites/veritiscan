@@ -3,6 +3,12 @@
 A small CLI that detects hidden text in PDF files: text a human cannot see but an
 AI text extractor still reads.
 
+## Who is it for
+People who use AI to read documents (for example law offices) and want to check a PDF before the AI reads it.
+
+## Built with
+Python (tested on 3.11 and 3.12) and pdfplumber (MIT). The tests use pytest and reportlab.
+
 ## Rules
 
 - `white_text`: fill color is white (gray 1, RGB 1,1,1 or CMYK 0,0,0,0).
